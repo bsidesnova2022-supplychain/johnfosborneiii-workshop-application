@@ -43,7 +43,7 @@ jobs:
       # Check out our application's infrastructure repository
       - uses: actions/checkout@v3
         with:
-          repository: bsidesnova2022-supplychain/mlbiam-workshop-infrastructure
+          repository: bsidesnova2022-supplychain/johnfosborneiii-workshop-infrastructure
           ssh-key: ${{ secrets.DEPLOY_KEY }}
           fetch-depth: 0
 
